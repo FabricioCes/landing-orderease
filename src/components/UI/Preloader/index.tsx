@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import ic_import from '../../../../public/svgs/ic_import.svg';
+import ic_import from '../../../../public/svgs/icon_blanco.svg';
 
 import { Wrapper, Inner, SecondOverlay } from './styles';
 import { Dispatch, SetStateAction, useEffect, useRef } from 'react';
@@ -11,7 +11,7 @@ const Preloader = ({
 }: {
   setComplete: Dispatch<SetStateAction<boolean>>;
 }) => {
-  const word = ['R', 'a', 'f', 't'];
+  const word = ['E', 'a', 's', 'e'];
 
   const spans = useRef<any>([]); // Create a ref to store the span elements
   const imageRef = useRef(null);
